@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name kicad-keyboard-parts)(type KiCad)(uri /home/oj/kicad-keyboard-parts.pretty)(options "")(descr ""))
+  (lib (name kicad-keyboard-parts-linux)(type KiCad)(uri /home/oj/kicad-keyboard-parts.pretty)(options "")(descr ""))
+  (lib (name kicad-keyboard-parts)(type KiCad)(uri C:/Users/admin/Downloads/kicad-keyboard-parts.pretty-master)(options "")(descr ""))
 )

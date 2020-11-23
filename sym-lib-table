@@ -1,3 +1,5 @@
 (sym_lib_table
-  (lib (name kicad-keyboard-parts)(type Legacy)(uri "/home/oj/kicad-keyboard-parts.pretty/Schematic Library/kicad-keyboard-parts.lib")(options "")(descr ""))
+  (lib (name kicad-keyboard-parts-linux)(type Legacy)(uri "/home/oj/kicad-keyboard-parts.pretty/Schematic Library/kicad-keyboard-parts.lib")(options "")(descr ""))
+  (lib (name kicad-keyboard-parts)(type Legacy)(uri "C:/Users/admin/Downloads/kicad-keyboard-parts.pretty-master/Schematic Library/kicad-keyboard-parts.lib")(options "")(descr ""))
+  (lib (name sextoykeeb-rescue)(type Legacy)(uri ${KIPRJMOD}/sextoykeeb-rescue.lib)(options "")(descr ""))
 )
