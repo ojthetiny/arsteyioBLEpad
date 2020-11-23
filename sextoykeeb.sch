@@ -1127,106 +1127,6 @@ F 3 "" H 7050 3150 50  0001 C CNN
 	1    7050 3150
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C_Small C1
-U 1 1 5FD2A2F2
-P 5250 1350
-F 0 "C1" H 5342 1396 50  0000 L CNN
-F 1 "100u" H 5342 1305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5250 1350 50  0001 C CNN
-F 3 "~" H 5250 1350 50  0001 C CNN
-	1    5250 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C2
-U 1 1 5FD2AADB
-P 5600 1350
-F 0 "C2" H 5692 1396 50  0000 L CNN
-F 1 "4.7u" H 5692 1305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5600 1350 50  0001 C CNN
-F 3 "~" H 5600 1350 50  0001 C CNN
-	1    5600 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C3
-U 1 1 5FD2B2F1
-P 5950 1350
-F 0 "C3" H 6042 1396 50  0000 L CNN
-F 1 "4.7u" H 6042 1305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5950 1350 50  0001 C CNN
-F 3 "~" H 5950 1350 50  0001 C CNN
-	1    5950 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C4
-U 1 1 5FD2B854
-P 6300 1350
-F 0 "C4" H 6392 1396 50  0000 L CNN
-F 1 "100n" H 6392 1305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6300 1350 50  0001 C CNN
-F 3 "~" H 6300 1350 50  0001 C CNN
-	1    6300 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR0128
-U 1 1 5FD2ECEE
-P 6300 1250
-F 0 "#PWR0128" H 6300 1100 50  0001 C CNN
-F 1 "+3V3" H 6315 1423 50  0000 C CNN
-F 2 "" H 6300 1250 50  0001 C CNN
-F 3 "" H 6300 1250 50  0001 C CNN
-	1    6300 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0129
-U 1 1 5FD2EFCD
-P 5800 1500
-F 0 "#PWR0129" H 5800 1250 50  0001 C CNN
-F 1 "GND" H 5805 1327 50  0000 C CNN
-F 2 "" H 5800 1500 50  0001 C CNN
-F 3 "" H 5800 1500 50  0001 C CNN
-	1    5800 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0130
-U 1 1 5FD30984
-P 5800 1200
-F 0 "#PWR0130" H 5800 1050 50  0001 C CNN
-F 1 "+5V" H 5815 1373 50  0000 C CNN
-F 2 "" H 5800 1200 50  0001 C CNN
-F 3 "" H 5800 1200 50  0001 C CNN
-	1    5800 1200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5250 1250 5600 1250
-Connection ~ 5600 1250
-Wire Wire Line
-	5600 1250 5800 1250
-Wire Wire Line
-	5800 1200 5800 1250
-Connection ~ 5800 1250
-Wire Wire Line
-	5800 1250 5950 1250
-Wire Wire Line
-	5250 1450 5600 1450
-Connection ~ 5600 1450
-Wire Wire Line
-	5600 1450 5800 1450
-Connection ~ 5950 1450
-Wire Wire Line
-	5950 1450 6300 1450
-Wire Wire Line
-	5800 1450 5800 1500
-Connection ~ 5800 1450
-Wire Wire Line
-	5800 1450 5950 1450
 Text GLabel 6800 4750 2    50   Input ~ 0
 D+
 Text GLabel 7650 4750 2    50   Input ~ 0
@@ -1566,4 +1466,18 @@ Text GLabel 10300 3750 1    50   Input ~ 0
 COL2
 Text GLabel 10900 3750 1    50   Input ~ 0
 COL3
+Text GLabel 3550 4200 2    50   Input ~ 0
+COL0
+Text GLabel 3550 4300 2    50   Input ~ 0
+COL1
+Text GLabel 3550 4400 2    50   Input ~ 0
+COL2
+Text GLabel 3550 4500 2    50   Input ~ 0
+COL3
+Text GLabel 3550 4800 2    50   Input ~ 0
+COL4
+Text GLabel 3550 4900 2    50   Input ~ 0
+ROW0
+Text GLabel 3550 5000 2    50   Input ~ 0
+ROW1
 $EndSCHEMATC
