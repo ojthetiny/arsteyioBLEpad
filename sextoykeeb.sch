@@ -14,12 +14,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L kicad-keyboard-parts:nRF52840_holyiot_18010 U1
+L sextoykeeb-rescue:nRF52840_holyiot_18010-kicad-keyboard-parts U1
 U 1 1 5FBA5D39
 P 2850 4350
 F 0 "U1" H 2850 5865 50  0000 C CNN
 F 1 "nRF52840_holyiot_18010" H 2850 5774 50  0000 C CNN
-F 2 "kicad-keyboard-parts:nRF52840_holyiot_18010" H 2950 4750 50  0001 C CNN
+F 2 "kicad-keyboard-parts-linux:nRF52840_holyiot_18010" H 2950 4750 50  0001 C CNN
 F 3 "http://www.holyiot.com/tp/2019042516322180424.pdf" H 2950 4750 50  0001 C CNN
 	1    2850 4350
 	1    0    0    -1  
@@ -750,7 +750,7 @@ F 3 "~" V 5450 2550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kicad-keyboard-parts:TP4056 U3
+L sextoykeeb-rescue:TP4056-kicad-keyboard-parts U3
 U 1 1 5FC45463
 P 6700 2650
 F 0 "U3" H 6675 3215 50  0000 C CNN
@@ -962,7 +962,7 @@ U 1 1 5FCAB484
 P 8150 2100
 F 0 "SW_CHAR1" H 8150 1775 50  0000 C CNN
 F 1 "SW_SPDT" H 8150 1866 50  0000 C CNN
-F 2 "kicad-keyboard-parts:ESP3020" H 8150 2100 50  0001 C CNN
+F 2 "kicad-keyboard-parts-linux:ESP3020" H 8150 2100 50  0001 C CNN
 F 3 "~" H 8150 2100 50  0001 C CNN
 	1    8150 2100
 	-1   0    0    1   
@@ -1016,7 +1016,7 @@ F 3 "~" H 9450 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kicad-keyboard-parts:FS8205 U5
+L sextoykeeb-rescue:FS8205-kicad-keyboard-parts U5
 U 1 1 5FCBCA45
 P 9550 2950
 F 0 "U5" H 9550 3365 50  0000 C CNN
@@ -1028,7 +1028,7 @@ F 4 "C32254" H 9550 3183 50  0000 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L kicad-keyboard-parts:DW01A U6
+L sextoykeeb-rescue:DW01A-kicad-keyboard-parts U6
 U 1 1 5FCC0E92
 P 10350 2500
 F 0 "U6" H 10350 3015 50  0000 C CNN
